@@ -89,7 +89,6 @@ local function pickUp(player, model)
 			return
 		end
 		local startPos = character.HumanoidRootPart.Position
-		local targetPos = model:GetPivot().Position
 		task.spawn(function()
 			local waited = 0
 			while waited < Config.STEAL_CHANNEL_SECONDS do

@@ -137,9 +137,7 @@ local rebirthButton = actionButton("RebirthButton", 414, "REBIRTH — $50,000", 
 local lockButton = actionButton("LockButton", 462, "LOCK BASE (30s)", Color3.fromRGB(40, 120, 200))
 local sellButton = actionButton("SellButton", 510, "SELL FIRST BRAINROT (70% back)", Color3.fromRGB(200, 120, 40))
 
-local myState = nil
 stateEvent.OnClientEvent:Connect(function(state)
-	myState = state
 	rebirthButton.Text = "REBIRTH — $" .. tostring(state.rebirthCost) .. "  (+50% $/s forever)"
 	if os.time() < state.lockedUntil then
 		lockButton.Text = "BASE LOCKED — tap to unlock"

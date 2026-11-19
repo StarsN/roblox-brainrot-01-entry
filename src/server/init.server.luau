@@ -4,7 +4,6 @@
 -- needs), then economy, spawner, stealing, tsunami, leaderboard.
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Workspace = game:GetService("Workspace")
 
 local WorldBuilder = require(script:WaitForChild("WorldBuilder"))
 local EconomyService = require(script:WaitForChild("EconomyService"))
