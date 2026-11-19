@@ -1,0 +1,1 @@
+{"steps":[{"screenshot":"1-thumbnail.jpg"},{"keys":["W"],"screenshot":"2-conveyor-shop.jpg","wait_ms":1500},{"keys":["S"],"screenshot":"3-my-base.jpg","wait_ms":1500},{"keys":["W"],"screenshot":"4-tsunami.jpg","wait_ms":1000}],"tour":1}
